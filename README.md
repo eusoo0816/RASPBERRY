@@ -4,18 +4,18 @@
 **檢查攝影機**
 lsusb
 
---拍照--
+--拍照--  
 fswebcam test.jpg
 
 
---即時畫面--
+--即時畫面--  
 cheese
 
---確認攝影機編號--
+--確認攝影機編號--  
 v4l2-ctl --list-devices
 
 
---確認對應境頭--
+--確認對應境頭--  
 ls -l /dev/v4l/by-id/
 
 
